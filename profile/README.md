@@ -12,6 +12,72 @@
 
 - 2024/03/26 ~ 2024/05/07
 
+## 💡 주요 기능
+
+<details>
+<summary>소셜 로그인</summary>
+<img width="1680" alt="스크린샷 2024-05-02 오전 11 08 57" src="https://github.com/The-Ham-Project/BE/assets/150704638/6a15ce73-8676-45f4-8061-8b21beeaab44">
+
+- OAuth2.0을 통해 회원가입 및 로그인 프로세스를 간소화했습니다.
+
+</details>
+
+<details>
+<summary>사용자 위치 설정</summary>
+<img width="1680" alt="스크린샷 2024-05-02 오전 11 09 45" src="https://github.com/The-Ham-Project/BE/assets/150704638/8da8371f-e195-4c16-9f9e-6b4678ca660f">
+
+- 카카오 지도 API를 이용하여 사용자의 현재 위치를 설정할 수 있습니다.
+
+</details>
+
+<details>
+<summary>함께쓰기 등록</summary>
+<img width="1680" alt="스크린샷 2024-05-02 오전 11 11 28" src="https://github.com/The-Ham-Project/BE/assets/150704638/8a516eab-353a-4dc3-954c-5970a1dc673f">
+
+- 이미지를 최대 3장까지 올릴 수 있습니다.
+- 나머지 정보들을 모두 입력하여 게시글을 등록할 수 있습니다.
+
+</details>
+
+<details>
+<summary>함께쓰기 조회</summary>
+<img width="1680" alt="스크린샷 2024-05-02 오전 11 10 18" src="https://github.com/The-Ham-Project/BE/assets/150704638/382fe1b0-2bb9-4f62-9580-18dcf6b72d3f">
+<img width="1680" alt="스크린샷 2024-05-02 오전 11 11 03" src="https://github.com/The-Ham-Project/BE/assets/150704638/adfda370-3d42-411a-ab24-38602299bd29">
+
+- 로그인시 사용자 위치 반경 4KM 이내의 게시글만 조회됩니다.
+- 비로그인시 최신순으로 게시글이 조회됩니다.
+
+</details>
+
+<details>
+<summary>함께쓰기 검색</summary>
+<img width="1680" alt="스크린샷 2024-05-02 오전 11 11 50" src="https://github.com/The-Ham-Project/BE/assets/150704638/3a366f56-c119-4c62-a155-c6cbef99b1bd">
+
+- 함께쓰기 게시글 제목 또는 내용에 포함된 키워드를 검색할 수 있습니다.
+
+</details>
+
+<details>
+<summary>함께쓰기 좋아요</summary>
+<img width="1680" alt="스크린샷 2024-05-02 오전 11 23 57" src="https://github.com/The-Ham-Project/BE/assets/150704638/7f390fba-3326-454a-8a9a-1dc3f3dc6c4c">
+
+- 함께쓰기 게시글에 좋아요를 누를 수 있습니다.
+
+</details>
+
+<details>
+<summary>함께쓰기 채팅</summary>
+<img width="1680" alt="스크린샷 2024-05-02 오전 11 12 50" src="https://github.com/The-Ham-Project/BE/assets/150704638/d1172a6c-82a1-436d-bc09-60e5936c80f6">
+<img width="1680" alt="스크린샷 2024-05-02 오전 11 12 42" src="https://github.com/The-Ham-Project/BE/assets/150704638/899901ee-e604-4037-bc9f-d21725bf527d">
+
+- 함께쓰기 게시글을 작성한 이용자와 1대1 채팅을 할 수 있습니다.
+
+</details>
+
+## 🏗️ 서비스 아키텍처
+
+![아키텍처](https://github.com/The-Ham-Project/BE/assets/150704638/61628531-2a1b-4206-9477-14c856a457ee)
+
 ## 👥 팀원 소개
 
 | 이름    | 깃허브                            | 이메일                      |
